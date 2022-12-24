@@ -1,0 +1,140 @@
+.main{
+    margin-top: 10vw;
+}
+
+.main img{
+    width: 100%;
+    margin-top: 3vw;
+}
+.main .text-18-black{
+    padding-bottom: 2rem;
+}
+.main .text{
+    text-align: center;
+}
+
+.sec_designer .text-18-black-medium{
+    padding-bottom: 2rem;
+}
+
+.sec_designer .text-gray{
+width: 40%;
+padding-bottom: 2rem;
+}
+
+
+.sec_designer .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.sec_designer .pod-row{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+}
+.sec_designer img{
+    width: 23.5vw;
+    padding-right: 1rem;
+}
+
+.sec_service h3{
+    margin-bottom: 3rem;
+}
+.sec_service .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.sec_service .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+
+@media (max-width:840px){
+    .sec_service .content{
+        flex-direction: column;
+    }
+
+    .sec_service .item-2{
+        padding: 5% 0px;
+    }
+    .sec_service .item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+
+@media (max-width:768px){
+    .main{
+        margin-top: 15vw;
+    }
+    .sec_designer .row{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0rem;
+    }
+    .sec_designer .pod-row{
+        width: 100%;
+        justify-content: space-between;
+        padding-bottom: 2rem;
+    }
+    .sec_designer img{
+        width: 48%;
+        padding-right: 0rem;
+    }
+
+    .sec_designer .text-gray{
+        width: 70%;
+        }
+    
+        .sec_service .item{
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+}
+
+@media (max-width:600px){
+
+    .main{
+        margin-top: 20vw;
+    }
+    .main img{
+        width: 100%;
+        margin-top: 5vw;
+    }
+}
+@media (max-width:425px){
+    .main img{
+        margin-top: 8vw;
+    }
+    .sec_designer .pod-row{
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 2rem;
+    }
+    .sec_designer img{
+        width: 90%;
+        padding-bottom: 2rem;
+    }
+
+    .sec_designer .text-gray{
+        width: 100%;
+        }
+}

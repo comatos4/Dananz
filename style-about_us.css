@@ -1,0 +1,158 @@
+.main{
+    margin-top: 10vw;
+}
+
+.main img{
+    width: 100%;
+    margin-top: 3vw;
+}
+
+.main .text{
+    text-align: center;
+}
+
+.sec_achi h3{
+    margin-bottom: 3rem;
+    width: 70%;
+}
+
+.sec_service h3{
+    margin-bottom: 3rem;
+}
+
+.sec_achi .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.sec_achi .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    padding-right: 4vw;
+}
+
+.sec_achi .item-2{
+    padding: 30% 0px;
+}
+
+.sec_achi .text-52{
+    font-size: 48px;
+}
+
+.sec_achi img{
+    width: 73.5%;
+}
+
+
+.sec_service .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.sec_service .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+
+
+@media (max-width:1050px){
+    .sec_achi .item-2{
+        padding: 10% 0px;
+    }
+    .sec_achi .text-52{
+        font-size: 42px;
+        margin-bottom: 0.5rem !important;
+    }
+    .sec_achi .info{
+        padding-right: 3vw;
+    }
+}
+
+@media (max-width:840px){
+    .sec_service .content{
+        flex-direction: column;
+    }
+
+    .sec_service .item-2{
+        padding: 5% 0px;
+    }
+    .sec_service .item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+
+@media (max-width:768px){
+    .main{
+        margin-top: 15vw;
+    }
+    .sec_achi .content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec_achi .info{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+        padding-right: 0px;
+        width: 100%;
+        padding-top: 10%;
+    }
+    .sec_achi .item-2{
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 0%;
+        padding-top: 0%;
+    }
+    .sec_achi h3{
+        width: 100%;
+    }
+    .sec_service .item{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+@media (max-width:600px){
+
+    .main{
+        margin-top: 20vw;
+    }
+    .sec_achi img{
+        width: 90%;
+    }
+    .sec_achi .text-16-white{
+        font-size: 14px;
+    }
+    .sec_achi .text-52{
+        font-size: 36px;
+    }
+    
+}
+
+@media (max-width:425px){
+    .sec_achi .text-16-white{
+        font-size: 12px;
+    }
+    .sec_achi .text-52{
+        font-size: 32px;
+    }
+}

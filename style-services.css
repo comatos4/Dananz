@@ -1,0 +1,78 @@
+.main{
+    margin-top: 10vw;
+}
+
+.main img{
+    width: 100%;
+    margin-top: 3vw;
+}
+
+.main .text{
+    text-align: center;
+}
+
+.sec_achi .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec_achi .item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2.5rem;
+}
+
+.sec_achi .text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 9vw;
+}
+
+.sec_achi img{
+    width: 51.8vw;
+}
+
+.sec_product .text-16-black {
+    margin-bottom: 2rem;
+}
+.text-18-black-medium{
+    margin-bottom: 2rem;
+}
+
+
+@media (max-width:768px){
+    .main{
+        margin-top: 15vw;
+    }
+    .sec_achi .item {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 2.5rem;
+        text-align: center;
+    }
+    
+    .sec_achi .item-3{
+        padding-bottom: 0rem;
+    }
+    
+    .sec_achi .text{
+        padding-left: 0vw;
+        text-align: center;
+    }
+    
+    .sec_achi img{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:600px){
+
+    .main{
+        margin-top: 20vw;
+    }
+}
